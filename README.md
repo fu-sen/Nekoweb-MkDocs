@@ -17,9 +17,9 @@
 7. Select `Settings` for your GitHub project.
 8. Select `Secrets and variables ` in `Secrets`.
 9. Select `Actions`
-9. Select `New repository secrets`.
-10. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
-11. Commit to a GitHub project: `git push`
+10. Select `New repository secrets`.
+11. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
+12. Commit to a GitHub project: `git push`
 
 ## Note
 
