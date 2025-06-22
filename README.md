@@ -21,6 +21,11 @@
 10. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
 11. Commit to a GitHub project: `git push`
 
+## Note
+
+If you have created your own `cursor.png` or `elements.css` ,  
+please include the file in the `docs/` folder.
+
 ## Build error
 
 Many of the build error are that you mistyped `mkdocs.yml`
