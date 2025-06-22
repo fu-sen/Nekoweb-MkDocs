@@ -14,12 +14,18 @@
 3. Log in to Nekoweb and Browse [API](https://nekoweb.org/api)
 5. Select `Generate API Key` in `API Key`. 
 6. The API Key will be displayed, so save this text string.
-7. Select `Settings` for your GitHub project.
-8. Select `Secrets and variables ` in `Secrets`.
-9. Select `Actions`
-10. Select `New repository secrets`.
-11. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
-12. Commit to a GitHub project: `git push`
+7. Browse [deploy2web # getting your cookie!](https://deploy.nekoweb.org/#getting-your-cookie)
+8. Follow the steps described to get `Cookie Token` .
+9. Select `Settings` for your GitHub project.
+10. Select `Secrets and variables ` in `Secrets`.
+11. Select `Actions`
+12. Select `New repository secrets`.
+13. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
+14. Select `New repository secrets`.
+15. Enter `NEKOWEB_COOKIE` in Name and Cookie Token in Value.
+16. Commit to a GitHub project: `git push`
+
+Cookie Token is optional.
 
 ## Note
 
