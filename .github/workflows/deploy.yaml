@@ -2,7 +2,7 @@ name: Deploy Website
 on: [push]
 jobs:
   deploy:
-    runs-on:  ubuntu-latest
+    runs-on:  mscos-latest
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -12,5 +12,4 @@ jobs:
       - uses: indiefellas/deploy2nekoweb@v4
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-folder: ''
           directory: 'site'
