@@ -9,8 +9,10 @@ jobs:
       - run: pip install -r requirements.txt
       - run: mkdocs build
       - run: cp site/404.html site/not_found.html
-      - run: mkdir site/${{ secrets.NEKOWEB_DIRECTORY }}
-      - run: mv site/* site/${{ secrets.NEKOWEB_DIRECTORY }}
+      - env:
+         NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
+      - run: mkdir site/$NEKOWEB_DIRECTORY
+      - run: mv site site/$NEKOWEB_DIRECTORY
       - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
