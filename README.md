@@ -12,7 +12,7 @@
 1. Edit `mkdocs.yml` and `docs/index.md`, add more files if needed.
 2. Add the pip package to `requirements.txt` . (Themes and plugins)
 3. Log in to Nekoweb and Browse [API](https://nekoweb.org/api)
-5. Select `Generate API Key` in `API Key`. 
+5. Select `Generate API Key` in `API Key`.
 6. The API Key will be displayed, so save this text string.
 7. Browse [deploy2web # getting your cookie!](https://deploy.nekoweb.org/#getting-your-cookie)
 8. Follow the steps described to get `Cookie Token` .
@@ -23,13 +23,15 @@
 13. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
 14. Select `New repository secrets`.
 15. Enter `NEKOWEB_COOKIE` in Name and Cookie Token in Value.
-16. Commit to a GitHub project: `git push`
+16. Select `New repository secrets`.
+17. Enter `NEKOWEB_DIRECTORY` in output directory on Nekoweb
+18. Commit to a GitHub project: `git push`
 
 Cookie Token is optional.
 
 ## Note
 
-If you have created your own `cursor.png` or `elements.css` ,  
+If you have created your own `cursor.png` or `elements.css` ,
 please include the file in the `docs/` folder.
 
 ## Build error
