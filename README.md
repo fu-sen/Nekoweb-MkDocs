@@ -36,7 +36,7 @@ please include the file in the `docs/` folder.
 
 New routing support is now available on July 25, 2025.
 If your Nekoweb is using outdated routing support,
-you need a fix for '.github/workflows/deploy.yaml'.
+you need a fix for `.github/workflows/deploy.yaml`.
 
 ## Build error
 
