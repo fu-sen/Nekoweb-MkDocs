@@ -9,7 +9,7 @@ jobs:
       - run: pip install -r requirements.txt
       - run: mkdocs build
       - run: cp site/404.html site/not_found.html
-      - uses: indiefellas/deploy2nekoweb@v4
+      - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
