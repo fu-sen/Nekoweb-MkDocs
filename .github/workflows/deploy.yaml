@@ -12,15 +12,15 @@ jobs:
       - shell: bash
         env:
          NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
-        run: mkdir site/$NEKOWEB_DIRECTORY
-      - run: cd site/
+        run: mkdir public
+        run: mkdir public/$NEKOWEB_DIRECTORY
       - shell: bash
         env:
          NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
-        run: mv * $NEKOWEB_DIRECTORY
+        run: mv site public/$NEKOWEB_DIRECTORY/
       - run: ..
       - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
           nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
-          directory: 'site'
+          directory: 'public'
