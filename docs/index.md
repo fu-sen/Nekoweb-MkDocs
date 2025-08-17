@@ -4,6 +4,9 @@
 
 **MkDocs with Nekoweb (minimal configuration)**
 
+<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe><br>
+<a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button8.gif"></a><!-- button by fujoshi.nekoweb.org -->
+
 - [Nekoweb](https://nekoweb.org/)
 - [MkDocs](https://www.mkdocs.org/)
 
@@ -12,7 +15,7 @@
 1. Edit `mkdocs.yml` and `docs/index.md`, add more files if needed.
 2. Add the pip package to `requirements.txt` . (Themes and plugins)
 3. Log in to Nekoweb and Browse [API](https://nekoweb.org/api)
-5. Select `Generate API Key` in `API Key`. 
+5. Select `Generate API Key` in `API Key`.
 6. The API Key will be displayed, so save this text string.
 7. Browse [deploy2web # getting your cookie!](https://deploy.nekoweb.org/#getting-your-cookie)
 8. Follow the steps described to get `Cookie Token` .
