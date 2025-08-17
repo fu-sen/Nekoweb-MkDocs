@@ -4,8 +4,7 @@
 
 **MkDocs with Nekoweb (minimal configuration)**
 
-<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe><br>
-<a href="https://nekoweb.org/"><img src="https://nekoweb.org/assets/buttons/button8.gif"></a><!-- button by fujoshi.nekoweb.org -->
+<iframe src="https://nekoweb.org/frame/follow" frameborder="0" width="170" height="28"></iframe>
 
 - [Nekoweb](https://nekoweb.org/)
 - [MkDocs](https://www.mkdocs.org/)
