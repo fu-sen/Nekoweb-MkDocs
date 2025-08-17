@@ -13,9 +13,10 @@ jobs:
       - env:
          NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
         run: mkdir public/$NEKOWEB_DIRECTORY
+      - run: cd site
       - env:
          NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
-        run: mv site/ public/$NEKOWEB_DIRECTORY/
+        run: mv . public/$NEKOWEB_DIRECTORY/
       - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
