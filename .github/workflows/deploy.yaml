@@ -10,12 +10,7 @@ jobs:
       - run: mkdocs build
       - run: cp site/404.html site/not_found.html
       - run: mkdir public
-      - env:
-         NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
-        run: mkdir public/$NEKOWEB_DIRECTORY
-      - env:
-         NEKOWEB_DIRECTORY: ${{ secrets.NEKOWEB_DIRECTORY }}
-        run: cp -R site/* public/$NEKOWEB_DIRECTORY/
+      - run: cp -R site/* public/
       - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
