@@ -22,12 +22,12 @@
 12. Select `New repository secrets`.
 13. Enter `NEKOWEB_API_KEY` in Name and API Key in Value.
 14. Select `New repository secrets`.
-15. Enter `NEKOWEB_COOKIE` in Name and Cookie Token in Value.
+15. Enter `NEKOWEB_DOMAIN` in Name and domain name in Value.  (example: username.nekoweb.org, )
 16. Select `New repository secrets`.
-17. Enter `NEKOWEB_DIRECTORY` in output directory on Nekoweb
-18. Commit to a GitHub project: `git push`
-
-Cookie Token is optional.
+17. Enter `NEKOWEB_USERNAME` in Name amd user name on Nekoweb in Value.
+18. Select `New repository secrets`.
+19. Enter `NEKOWEB_DIRECTORY` in Name and output directory on Nekoweb in Value.
+20. Commit to a GitHub project: `git push`
 
 ## Note
 

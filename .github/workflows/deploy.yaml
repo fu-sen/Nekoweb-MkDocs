@@ -19,5 +19,6 @@ jobs:
       - uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-cookie: ${{ secrets.NEKOWEB_COOKIE }}
+          nekoweb-domain: ${{ secrets.NEKOWEB_DOMAIN }}
+          nekoweb-username: ${{ secrets.NEKOWEB_USERNAME }}
           directory: 'public'
