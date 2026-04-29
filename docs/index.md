@@ -9,6 +9,8 @@
 - [Nekoweb](https://nekoweb.org/)
 - [MkDocs](https://www.mkdocs.org/)
 
+Powered by [deploy2nekoweb](https://deploy.nekoweb.org/)
+
 ## How to use
 
 1. Edit `mkdocs.yml` and `docs/index.md`, add more files if needed.
